@@ -1,0 +1,113 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width:100%;
+}
+
+body{
+  overflow-x: hidden;
+  background-color: #ebebe0;
+}
+
+#topRow{
+  max-height:150px;
+}
+nav{
+  position: absolute;
+  bottom: -110px;
+  width: 100%;
+  border: 0;
+
+}
+nav ul{
+
+}
+nav ul li{
+  display: inline-block;
+  padding: 0 15px;
+  font-size: 1.10em;
+  border: 0 ;
+}
+nav ul li a:hover{
+  background-color: #8a25b1;
+  padding: 0 15px;
+  color: pink;
+}
+#topLogo{
+  background-color: pink;
+}
+#topCatch{
+  padding: 7px 0;
+  height: 100%
+  line-height: 1em;
+  font-family: Lobster, sans-serif;
+  font-size: 3em;
+  color: #8a25b1;
+}
+#topSection{
+  background-image:url(img/unicorn-picture.jpg);
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#second{
+  padding-top: 40px;
+}
+#second img{
+  display:block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 2px 4px #adad85;
+}
+
+#second img:hover{
+  width: 105%;
+
+}
+#subForm{
+  padding: 60px;
+
+}
+
+#btn{
+  display: block;
+  background-color: #1f1f14;
+  width: 80%;
+  color: #ffffff;
+  border-color: #1f1f14;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+#footer{
+  background: pink;
+  color: #8a25b1;
+  height: 60px;
+}
+
+
+
+.container{
+  width: 100%;
+  height: 150px;
+  background-color: pink;
+}
+
+.formDetails{
+  padding: 0 20px 20px 20px;
+
+}
+
+@media only screen and (max-width: 600px){
+  #topLogo{
+    float: left;
+  }
+  #topCatch{
+    float:right;
+  }
+
+}
